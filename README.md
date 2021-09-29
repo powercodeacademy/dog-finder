@@ -16,4 +16,6 @@ t.integer :dog_id
 t.string :location
 t.string :image_url
 
--
+# FEATURES
+- Index page of found dogs
+- Create page for found dogs
