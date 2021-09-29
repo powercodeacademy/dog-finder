@@ -17,5 +17,5 @@ t.string :location
 t.string :image_url
 
 # FEATURES
-- Index page of found dogs
+- Index page of found dogs - DONE
 - Create page for found dogs

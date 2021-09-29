@@ -1,0 +1,19 @@
+<div class="w-100">
+  <div class="m-5">
+    <h1>Found Dogs</h1>
+    <div class="d-flex justify-content-between">
+      <% @found_dogs.each do |found_dog| %>
+        <div class="card m-2 p-2">
+          <h3 class="text-center"><%= found_dog.dog.name %></h3>
+          <img src="<%= found_dog.image_url %>">
+          <p class="pt-2"><%= found_dog.info %></p>
+          <p class="text-center">
+            <strong>
+              Contact: <a href="tel:<%= found_dog.person.phone_number %>"><%= found_dog.person.phone_number %></a>
+            </strong>
+          </p>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
